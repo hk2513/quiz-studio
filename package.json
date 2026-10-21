@@ -1,0 +1,13 @@
+{
+  "name": "quiz-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local-first quiz editor and practice app. No accounts or backend.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node scripts/check.cjs",
+    "dev": "node scripts/serve.cjs"
+  },
+  "engines": { "node": ">=22" }
+}
