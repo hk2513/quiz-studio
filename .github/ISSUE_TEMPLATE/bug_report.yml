@@ -1,0 +1,23 @@
+name: 不具合の報告
+description: 再現手順と利用環境を教えてください
+title: "[Bug] "
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 個人情報や非公開の問題は含めないでください。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待する動作と実際の動作
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS・ブラウザ・アプリのバージョン
+    validations:
+      required: true
