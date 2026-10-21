@@ -1,0 +1,18 @@
+name: 改善提案
+description: 困っていることや使いたい場面を教えてください
+title: "[Idea] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解決したいこと
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 希望する動作
+  - type: textarea
+    id: alternative
+    attributes:
+      label: 現在の対処方法
